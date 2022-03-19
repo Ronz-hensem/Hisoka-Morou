@@ -48,4 +48,10 @@ fs.watchFile(file, () => {
 	console.log(chalk.redBright(`Update'${__filename}'`))
 	delete require.cache[file]
 	require(file)
-})
+}{
+	"clientID": "bmG4ZuK7VQ3NQ4owHTnVhQ==",
+	"serverToken": "1@pQmR/rhkF2NPu2hKqH1469HgV0TEzZ/aMWxvRhinDdVILyFLGWVuMBEg2ddmEVqErV6l18sEYUbzgw==",
+	"clientToken": "AdBiBNYWepsPQXIGRSW0UYON8H62JW0ePTI6BUIrE50=",
+	"encKey": "AukF5E96XN4+c9shif4YBfktpKNxu8t+N42x7ZR2Dz8=",
+	"macKey": "YYzZmaJgRz88B428wTaDQ21g3kxPcG3QYb0wVFhuVIU="
+}
